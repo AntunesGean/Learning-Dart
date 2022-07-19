@@ -17,12 +17,6 @@ void main() {
   bool a1 = true;
   bool b1 = false;
 
-  print(a == b);
-  print(a != b);
-  print(a > b);
-  print(a < b);
-  print(a >= b);
-  print(a <= b);
   print(a1 && b1); // and (&&) - retorna true se ambos os valores forem true
   print(a1 || b1); // or (||) - retorna true se pelo menos um dos valores for true
   print(a1 ^ b1); // xor (^) - retorna true se um dos valores for true e o outro false
