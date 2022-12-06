@@ -11,14 +11,14 @@ void main() {
   // print(c + d);
   sum(c, d);
 
-  sumRandon();
+  sumRandom();
 }
 
 void sum(int a, int b) {
   print(a + b);
 }
 
-void sumRandon() {
+void sumRandom() {
   int a = Random().nextInt(11);
   int b = Random().nextInt(11);
   print('Os valores sorteados foram $a e $b.');
