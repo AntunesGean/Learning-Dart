@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   sayHi(name: "João", age: 37); // Parâmetros nomeados são chamados por nome
   sayHi(age: 25, name: "Maria");
