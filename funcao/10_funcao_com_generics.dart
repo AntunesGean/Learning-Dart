@@ -2,7 +2,7 @@ Object segundoElementoV1(List lista) {
   return lista.length >= 2 ? lista[1] : null;
 }
 
-E? segundoElementoV2<E>(List<E> lista) { // E? = E(genérico) ou null
+Type? segundoElementoV2<Type>(List<Type> lista) { // Type? = uso do ? por causa Type(genérico) poder ser null
   return lista.length >= 2 ? lista[1] : null;
 }
 
