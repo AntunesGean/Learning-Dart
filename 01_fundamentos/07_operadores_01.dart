@@ -18,6 +18,7 @@ void main() {
   bool b1 = false;
 
   print(a1 && b1); // and (&&) - retorna true se ambos os valores forem true
+  // ignore: dead_code
   print(a1 || b1); // or (||) - retorna true se pelo menos um dos valores for true
   print(a1 ^ b1); // xor (^) - retorna true se um dos valores for true e o outro false
   print(!a1); // not (!) - retorna true se o valor for false

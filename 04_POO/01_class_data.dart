@@ -4,7 +4,7 @@ class Data {
   int? ano;
 }
 
-void main() {
+void main() { 
   var dataAniversario = new Data();
   dataAniversario.dia = 03;
   dataAniversario.mes = 10;
