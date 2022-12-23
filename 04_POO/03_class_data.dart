@@ -12,6 +12,12 @@ class Data {
   // Data(this.dia, this.mes, this.ano); // construtor versão simplificada 
 
   Data([this.dia = 1, this.mes = 1, this.ano = 1970]); // construtor versão simplificada com valores opcionais[] e default
+  
+  Data.com({this.dia = 1, this.mes = 1, this.ano = 1970}); // construtor nomeado com valores nomeados{} e default
+  Data.ultimoDiaDoAno(this.ano) { // construtor nomeado com um valor e um bloco de inicialização
+    dia = 31;
+    mes = 12;
+  }
 
   String obterDataFormatada() { 
     return "$dia/$mes/$ano";
@@ -39,4 +45,10 @@ void main() {
   print(Data(31));
   print(Data(31, 12));
   print(Data(31, 12, 2021));
+
+  print(Data.com(ano: 2022));
+  print(Data.com(dia: 31, ano: 2022));
+  print(Data.com(dia: 31, mes: 12, ano: 2022));
+
+  print(Data.ultimoDiaDoAno(2023));
 }
