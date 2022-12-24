@@ -4,7 +4,7 @@ class Carro {
 
   Carro([this.velocidadeMaxima = 200]);
 
-  int get velocidadeAtual { // Getter (acessador) 
+  int get velocidadeAtual { // Getter (acessador)
     return this._velocidadeAtual;
   }
 
